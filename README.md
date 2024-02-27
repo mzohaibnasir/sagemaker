@@ -22,4 +22,4 @@ Steps:
 
 Passing an IAM role gives Amazon SageMaker permission to perform actions in other AWS services on your behalf- services with in AWS necessary to perform required actions. We cant allocate permission to each one by one. so we use IAM ROLE
 
-In `create notebook instance > Permission and Encryption`, if you select specific s3 bucket, it will have permission to access only that bucket.
+In `create notebook instance > Permission and Encryption`, if you select specific s3 bucket, it will have permission to access only that bucket. With `any bucket`, this application will access all buckets.
