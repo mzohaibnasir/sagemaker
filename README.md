@@ -27,8 +27,10 @@ In `create notebook instance > Permission and Encryption`, if you select specifi
 # class S3.Object(bucket_name, key)
 
 A resource representing an Amazon Simple Storage Service (S3) Object:
-
-`import boto3
+"""
+import boto3
 
 s3 = boto3.resource('s3')
-object = s3.Object('bucket_name','key')`
+object = s3.Object('bucket_name','key')
+
+"""
