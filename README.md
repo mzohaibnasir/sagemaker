@@ -35,6 +35,6 @@ object = s3.Object('bucket_name','key')
 
 """
 
-# Estimator
+# Estimator : to call the xgboost image
 
 The sagemaker.estimator.Estimator is a high-level interface for SageMaker training in the Amazon SageMaker Python SDK. It is used to create and manage training jobs, as well as to deploy trained models. The Estimator class allows you to specify the training image URI, role, instance type, instance count, output path, and other parameters to create a training job. Once the training job is created, you can call the fit method to start the training process. After the training is complete, you can deploy the trained model using the deploy method
